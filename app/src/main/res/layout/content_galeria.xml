@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GaleriaActivity"
+    tools:showIn="@layout/app_bar_galeria">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textGaleria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textNavGaleria"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:textColor="#000000"/>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_viewum"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp"
+            android:paddingVertical="40dp"
+            android:paddingTop="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgCardum"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/divisao" />
+
+            <TextView
+                android:id="@+id/textTituloUmCardum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgCardum"
+                android:maxLines="3"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Divisão de Células Cancerígenas"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card_viewdois"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="8dp"
+            android:paddingVertical="40dp"
+            android:paddingTop="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgDois"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/microbios" />
+
+            <TextView
+                android:id="@+id/textTituloUmCarddois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDois"
+                android:maxLines="3"
+                android:fontFamily="casual"
+                android:padding="8dp"
+                android:text="Micróbios"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewumtres"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgTesteCarTres"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tronca" />
+
+                    <TextView
+                        android:id="@+id/textTituloCardTres"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgTesteCarTres"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Células Tronco"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/card_viewquatro"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_margin="8dp"
+                android:paddingVertical="40dp"
+                android:paddingTop="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgCardquatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cancer" />
+
+                    <TextView
+                        android:id="@+id/textTituloUmCardquatro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgCarquatro"
+                        android:maxLines="3"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="Células Cancerígenas"
+                        android:textColor="#222"
+                        android:textStyle="bold"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

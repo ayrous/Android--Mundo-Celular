@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textSobre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:layout_marginVertical="10dp"
+                android:text="Quem somos?"
+                android:textSize="36sp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Este aplicativo foi deselvolvido por estudantes com intuito educacional. Por conta disso, ele pode apresentar certos erros e bugs em determinados disposítivos, pois ainda estamos em formação. Recomendamos utilizar versões android mais atuais para seus completo funcionamento.Esperamos que goste e aproveite!" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:paddingRight="5dp"
+                android:text="Os desenvolvedores." />
+
+            <TextView
+                android:id="@+id/textIntegrantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:layout_marginTop="60dp"
+                android:text="Integrantes:"
+                android:textColor="#7600ff"
+                android:textSize="24sp"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center">
+
+                <TableRow
+                    android:id="@+id/tableLinhaUm"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Francisco Ayrton   (Nº07)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaDois"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesDois"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Gabriel Henrique    (Nº08)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <TableRow
+
+                    android:id="@+id/tableLinhaTres"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesTres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Íris Campanella      (Nº14)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaQuatro"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesQuatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Victor Ravazio        (Nº27)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaCinco"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textNomesCinco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Lucas Silveira         (Nº31)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+            <TextView
+                android:id="@+id/textDesenvoldedoresdoProjeto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:layout_marginTop="60dp"
+                android:text="Desenvolvedores Android:"
+                android:textColor="#7600ff"
+                android:textSize="24sp"/>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center">
+
+                <TableRow
+                    android:id="@+id/tableLinhaFirst"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textDesenvolvedor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Íris Campanella   (Nº14)"
+                        android:textAlignment="viewStart"
+                        android:textSize="25sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableLinhaSecond"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textDesenvolvedorDois"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:text="Victor Ravazio     (Nº27)"
+                        android:textAlignment="viewStart"
+                        android:layout_marginBottom="30dp"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+            <TextView
+                android:id="@+id/textDisciplina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/multiNomes"
+                android:textAlignment="center"
+                android:layout_marginVertical="10dp"
+                android:text="Disciplina:"
+                android:textColor="#7600ff"
+                android:textSize="24sp" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center">
+
+            <TableRow
+                android:id="@+id/tablebio"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textBiologia"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center"
+                android:text="Biologia"
+                android:textSize="25sp" />
+
+            </TableRow>
+            </TableLayout>
+
+               <TextView
+                android:id="@+id/textProfessor"
+                android:layout_width="412dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/multiNomes"
+                android:layout_marginLeft="0dp"
+                   android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textSobre"
+                android:text="Professora:"
+                   android:paddingRight="30dp"
+                android:textAlignment="center"
+                android:textColor="#7600ff"
+                android:textSize="24sp" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center">
+
+            <TableRow  android:id="@+id/tableprof"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="90dp"
+                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textKaren"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textBiologia"
+                android:layout_marginEnd="48dp"
+                android:textAlignment="center"
+                android:text="Karen"
+                android:textSize="25sp" />
+            </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
